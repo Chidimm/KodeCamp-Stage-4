@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#quote-section .flex, #double-section .flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .right-form-section .text-box h5 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+#quote-section .left-section {
+    margin-top: 60px;
+}
+
+#quote-section .right-form-section {
+    margin-top: 40px;
+}
+
+#quote-section .left-section h2 {
+    font-size: 58px;
+}
+
+#quote-section .left-section p {
+    font-size: 16px;
+}
+
+#quote-section .left-section .text-box p {
+    font-size: 18px;
+}
+
+#repair-section {
+    background: #F2F2F2;
+}
+
+#repair-section .head h5 h2 {
+    display: flex;
+    text-align: center;
+}
+
+#repair-section .head h5 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#repair-section .head h2 {
+    font-size: 58px;
+    text-align: center;
+}
+.block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+}
+.box-section  {
+    text-align: center;
+}
+.box-section .box-button {
+    display:inline-block;
+    width:288px;
+    height:204px;
+    background-color:#FFFFFF;
+}
+
+.box-section .color-button {
+    background: #FF6433;
+    display: inline-block;
+    width: 288px;
+    height: 204px;
+}
+
+#repair-section .serve h5 {
+    margin: 100px;
+    font-size: 18px;
+    text-align: right;
+}
+
+#double-section .left-image-section img, #double-section .right-image-section img {
+    width: 644px;
+    height: 502px;
+    position: relative;
+}
+
+#double-section .text-block {
+    background-color: #FF6433;
+    color: white;
+    float: right;
+    height: 502px;
+    width: 544px;
+    position: absolute;
+    margin-left: 200px;
+
+}
+
+.flex .text-block h4 {
+    font-size: 48px;
+    margin: 0px 50px;
+    margin-top: 100px;
+}
+
+.flex .text-block button {
+    font-size: 18px;
+    background: black;
+    color: #ffffff;
+    margin: 0px 50px;
+}
+
+#head-section {
+    background: #F2F2F2;
+}
+
+
+#head-section .up-section ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    color: #661cE7;
+    justify-content: space-between;
+    font-size: 58px;
+}
+
+#head-section .down-section ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    color: #1E1B1B;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+#brand-section {
+    background: #FAFAFA;
+}
+
+#brand-section h3 {
+    font-size: 48px;
+    text-align: center;
+    color: #1E1B1B;
+    margin-top: 50px;
+}
