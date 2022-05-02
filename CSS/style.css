@@ -23,119 +23,160 @@
     display: inline-block;
     color: #fff;
 }
-
-#quote-section .left-section, #quote-section .right-form-section {
-    width: 45%;
-}
-
-#quote-section ul {
-    list-style: none;
-}
-
-#quote-section ul li {
-    margin-bottom: 20px;
-}
-
-#quote-section .right-form-section .text-box h5 {
-    font-size: 32px;
-    margin-bottom: 5px;
+#quote-section {
+    padding: 80px;
 }
 
 #quote-section .left-section {
-    margin-top: 60px;
+    width: 55%;
 }
 
 #quote-section .right-form-section {
-    margin-top: 40px;
+    width: 40%;
+}
+
+#quote-section .right-form-section .image-section {
+    width: 12%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#quote-section .right-form-section .text-section {
+    width: 70%;
+}
+
+#quote-section .right-form-section .image-section img {
+    width: 100%;
+}
+
+#quote-section .right-form-section .image-section .line-box img {
+    width: 2px;
+}
+
+#quote-section .right-form-section .text-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#quote-section .right-form-section .text-section p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #1E1B1B;
+    opacity: 0.6;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+#quote-section .right-form-section ul li {
+    margin-bottom: 10px;
 }
 
 #quote-section .left-section h2 {
+    font-weight: 200;
     font-size: 58px;
+    margin-top: 40px;
+    width: 70%;
 }
 
 #quote-section .left-section p {
+    font-weight: 600;
     font-size: 16px;
-}
-
-#quote-section .left-section .text-box p {
-    font-size: 18px;
+    color: #1E1B1B;
+    opacity: 0.6;
+    width: 60%;
 }
 
 #repair-section {
+    padding: 80px;
     background: #F2F2F2;
+    min-height: 100vh;
 }
 
-#repair-section .head h5 h2 {
+#repair-section h2, #repair-section h5 {
+    text-align: center;
+}
+
+#repair-section .boxes .box-section {
+    background: #ffffff;
+    height: 232px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    width: 24%;
+    margin-bottom: 12px;
 }
 
-#repair-section .head h5 {
-    font-size: 18px;
-    text-align: center;
+#repair-section .boxes {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: flex;
 }
 
-#repair-section .head h2 {
-    font-size: 58px;
-    text-align: center;
-}
-.block {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: #ffffff;
-}
-.box-section  {
-    text-align: center;
-}
-.box-section .box-button {
-    display:inline-block;
-    width:288px;
-    height:204px;
-    background-color:#FFFFFF;
-}
-
-.box-section .color-button {
+#repair-section .boxes .box-section:hover{
     background: #FF6433;
-    display: inline-block;
-    width: 288px;
-    height: 204px;
+    color: #fff;
 }
 
-#repair-section .serve h5 {
-    margin: 100px;
-    font-size: 18px;
-    text-align: right;
+.learn {
+    display: flex;
+    justify-content: flex-end;
 }
 
-#double-section .left-image-section img, #double-section .right-image-section img {
-    width: 644px;
-    height: 502px;
-    position: relative;
+.learn a {
+    display: flex;
+    color: #1E1B1B;
+    text-decoration: none;
 }
 
-#double-section .text-block {
-    background-color: #FF6433;
-    color: white;
-    float: right;
-    height: 502px;
-    width: 544px;
-    position: absolute;
-    margin-left: 200px;
-
+.learn p {
+    margin-right: 10px;
 }
 
-.flex .text-block h4 {
+#double-section {
+    height: 500px;
+    display: flex;
+}
+
+#double-section .carback-section {
+    height: 500px;
+    width: 20%;
+    background: url(../img/car.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#double-section .color-section {
+    width: 40%;
+    height: 500px;
+    background: #FF6433;
+}
+
+#double-section .color-section h2 {
     font-size: 48px;
+    font-weight: 700;
     margin: 0px 50px;
     margin-top: 100px;
 }
 
-.flex .text-block button {
+#double-section .color-section button {
     font-size: 18px;
     background: black;
     color: #ffffff;
     margin: 0px 50px;
+}
+
+#double-section .engine-section {
+    width: 40%;
+    height: 500px;
+    background: url(../img/unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #head-section {
@@ -163,11 +204,9 @@
 
 #brand-section {
     background: #FAFAFA;
-}
-
-#brand-section h3 {
     font-size: 48px;
+    font-weight: 700;
     text-align: center;
-    color: #1E1B1B;
-    margin-top: 50px;
+    margin-top: 40px;
+    
 }
